@@ -1,0 +1,25 @@
+.landing-filter {
+  margin-block-end: 25px;
+  .landing-filter-container {
+    flex-wrap: wrap;
+    gap: 30px;
+    > div {
+      border: 1px solid $clr10;
+      padding: 14px 24px;
+      border-radius: 100vw;
+      cursor: pointer;
+      transition: background-color 0.5s cubic-bezier(0.05, 0, 0, 1);
+      background-color: $clr13;
+
+      &:hover {
+        background-color: #0000001a;
+        border-color: $clr3;
+      }
+
+      &.active {
+        background-color: $clr4;
+        color: $clr11;
+      }
+    }
+  }
+}

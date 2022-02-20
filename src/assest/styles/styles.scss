@@ -1,0 +1,20 @@
+// Setup
+@import "setup/variables.scss";
+@import "setup/functions.scss";
+@import "setup/mixins.scss";
+// @import "setup/typography.scss";
+
+// Basics
+@import "basics/helpers.scss";
+@import "basics/layout.scss";
+@import "basics/base.scss";
+
+// Compenents
+@import "components/app-header.scss";
+@import "components/landing-preview.scss";
+@import "components/landing-list.scss";
+@import "components/landing-filter.scss";
+
+// Pages
+@import "pages/home-page.scss";
+@import "pages/landing-details.scss";

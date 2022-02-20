@@ -1,0 +1,28 @@
+.app-header {
+  height: 70px;
+  background-color: $clr4;
+  color: $clr6;
+  margin-block-end: 25px;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  position: fixed;
+  box-shadow: 0px 2px 0 #7cb3c9e0;
+  .logo {
+    font-family: f-extrabold;
+    font-size: 25px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .main-header {
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+      font-family: f-bold;
+      font-size: rem(20px);
+      padding-inline-start: 20px;
+    }
+  }
+}

@@ -1,0 +1,74 @@
+.landing-details {
+  .details-container {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    gap: 15px;
+    background-color: $clr2;
+    border-radius: 45vw;
+    padding: 80px 50px;
+    margin-block-end: 18px;
+
+    .details-background {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: $clr13;
+      border-radius: 45vw;
+      padding: 50px 50px;
+    }
+
+    .fa-wikipedia {
+      background-color: $clr12;
+      padding-top: 5px;
+      padding: 5px 5px;
+      padding-bottom: unset;
+      border-radius: 8px;
+      font-size: 36px;
+      .wiki-link {
+        text-decoration: unset;
+      }
+    }
+
+    .details-video {
+      flex-direction: column;
+    }
+
+    h1 {
+      font-size: 30px;
+      font-family: f-extrabold;
+      margin-block-end: 18px;
+    }
+
+    span {
+      text-decoration: underline;
+      font-weight: bold;
+      margin-block-end: 18px;
+    }
+
+    img {
+      max-height: 300px;
+      max-width: 300px;
+      margin-block-end: 18px;
+    }
+
+    iframe {
+      // display: flex;
+      align-self: center;
+      max-width: 420px;
+      // max-height: 315px;
+      width: 100%;
+      min-height: 315px;
+      border-radius: 8%;
+      margin-block-end: 18px;
+    }
+
+    p {
+      max-width: 650px;
+      font-family: f-black;
+      font-size: 20px;
+      line-height: 28px;
+      margin-block-end: 18px;
+    }
+  }
+}

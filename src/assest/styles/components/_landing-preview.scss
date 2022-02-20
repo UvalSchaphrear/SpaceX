@@ -1,0 +1,22 @@
+.landing-preview {
+  flex-direction: column;
+  border: 1.8px solid $clr1;
+  border-radius: 15px;
+  background-color: $clr15;
+  padding: 20px;
+  align-items: center;
+  height: 100%;
+  font-family: f-light;
+  color: $clr6;
+  font-size: rem(20px);
+  letter-spacing: 0.025em;
+  text-shadow: 0 1px 0 #a68888;
+  white-space: nowrap;
+  p {
+    text-decoration: none;
+    margin-block-end: 15px;
+  }
+  img {
+    object-fit: contain;
+  }
+}
