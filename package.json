@@ -1,7 +1,9 @@
 {
-  "name": "weather-app",
+  "name": "space-x-app",
+  "homepage":"https://UvalSchaphrear.github.io/SpaceX",
   "version": "0.1.0",
   "private": true,
+
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.16",
@@ -29,7 +31,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
